@@ -5,7 +5,7 @@ public class Graph {
         this.numVertices = n;
         this.adjList = new HashTables(n);
     }
-    // Add verticies
+    // AddVertex
     public void addVertex(int v) {
         adjList.insert(v);
     }
