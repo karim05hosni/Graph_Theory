@@ -48,7 +48,6 @@ public class Graph {
         }
         return n;
     }
-    
     public static void main(String[] args) {
         Graph g = new Graph(10);
         g.addVertex(232);g.addVertex(5);g.addVertex(33);g.addVertex(2);g.addVertex(112);g.addVertex(921);g.addVertex(92);
